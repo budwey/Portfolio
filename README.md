@@ -1,1 +1,1 @@
-- Rama de recuperación del proyecto
+# Rama de recuperación del proyecto
