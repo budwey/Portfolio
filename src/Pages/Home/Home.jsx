@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import './Home.css';
+import {Helmet} from 'react-helmet';
 
 import Header from '../../components/Header/Header';
 import Slider from '../../components/Slider/Slider';
@@ -67,6 +68,9 @@ const SquareCardRight = styled(SquareCard)`
 `;
 
     return ( <>
+        <Helmet>
+          <title>Portfolio - Jose Aridane</title>
+        </Helmet>
         <Header/>
         <Slider/>
         <AvatarWrapper>
