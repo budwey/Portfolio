@@ -43,7 +43,7 @@ const Card = () => {
     return (
         <Wrapper>
             <Title>Jose Aridane Hdez Báez</Title>
-            <Description> · Full-Stack Junior Web Developer 💻 
+            <Description> · Full-Stack Junior Web Developer <span>💻</span>
             </Description>
         </Wrapper>
     )
